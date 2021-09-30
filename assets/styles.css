@@ -11,6 +11,8 @@
 
 }
 
+/****** style header portion for both index and work.html webpages *******/
+
 header {
     background: linear-gradient(135deg, rgb(116, 117, 10), rgb(114, 12, 117));
     font-family: var(--font-primary);
@@ -45,11 +47,13 @@ nav ul li a {
     font-weight: 900;
 }
 
-/* added hover effect */
+/* added hover effect to header nav bar, footer, and to portfolio works */
 
 nav ul li a:hover, #contact-me li:hover, .portfolio-card-description a:hover {
     box-shadow: rgb(185, 7, 37) inset 30px 60px
 }
+
+/* ******** styling main portion of both index.html and work.html ************* */
 
 main {
     display: flex;
@@ -75,15 +79,21 @@ main p {
 
 }
 
+/* styling about-me section of index.html webpage containing description of myself */
+
 #about-me {
     flex: 1 1 0;
     margin: 5% 0% 0% 5%;
     padding: 5%;
 }
 
+/* styling the sidebar of index.html webpage containing my profile picture */
+
 #aside {
     background-color: #CCF381;
 }
+
+/* styling my profile picture */
 
 figure {
     display: flex;
@@ -119,6 +129,9 @@ figure img:hover{
     flex-wrap: wrap;
 }
 
+/* contains width of each of completed works  */
+/* NOTE: this will be updated with more of my own works as we do more projects */
+
 .portfolio-card {
     width: 50%;
 }
@@ -146,6 +159,7 @@ figure img:hover{
     background-color: rgb(15, 108, 121);
 }
 
+/* ************ styling footer section of both index.html and work.html webpages  ************/
 /* note: #contact-me = footer */
 #contact-me {
     background: linear-gradient(15deg, rgb(53, 196, 89), rgb(25, 156, 58), rgb(13, 88, 11));
@@ -194,6 +208,8 @@ figure img:hover{
 
   }
 
+/* adjust responsiveness for works part of the work.html */
+/* maintain their aspect ratio so that images are not distorted for different screen sizes */
 
   @media only screen and (max-width: 500px) {
     #portfolio img {
