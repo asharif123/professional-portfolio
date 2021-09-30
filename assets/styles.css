@@ -55,8 +55,8 @@ main {
     line-height: 2;
 }
 
-main h4 {
-    font-size: 180%;
+main h3 {
+    font-size: 150%;
     font-family: 'Rubik', sans-serif;
     color: #CCF381;
     text-align: center;
@@ -150,24 +150,27 @@ figure img:hover{
     background-color: rgb(15, 108, 121);
 }
 
-footer {
+/* note: #contact-me = footer */
+#contact-me {
     background: linear-gradient(15deg, rgb(53, 196, 89), rgb(25, 156, 58), rgb(13, 88, 11));
     width: 100vw;
     height: 20vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     font-family: var(--font-primary);
     color: var(--color-primary);
 
 }
 
-footer ul li {
+#contact-me ul li {
     list-style-type: none;
 }
 
-footer ul li a {
+#contact-me ul li a {
     color: var(--color-primary);
+
 }
 
 .contact-me-email {
@@ -187,35 +190,37 @@ footer ul li a {
   /* adjust responsiveness to adapt font sizes for both profile header and description */
   @media only screen and (max-width: 770px) {
       main p {
-          font-size: 100%;
+          font-size: 60%;
       }
 
-      main h4 {
-        font-size: 120%;
+      main h3 {
+        font-size: 45%;
     }
   }
 
-  @media only screen and (max-width: 650px) {
-    main p {
-        font-size: 90%;
-    }
-
-    main h4 {
-      font-size: 65%;
-      font-weight: 900;
-  }
-}
-
-
-
-
-
-  /* header nav bar responsiveness */
+ /* header nav bar responsiveness */
   @media only screen and (max-width: 430px) {
+
+    nav ul {
+        padding-right: 16%;
+    }
     nav ul li {
         margin-left: 1%;
-        margin-right: 1%;
-        font-size: 70%;
+        margin-right: 5%;
+        font-size: 50%;
+    }
+
+    #aside {
+        padding-right: 15%;
+    }
+
+    figure img {
+        margin: 40% 0% 0% 50%;
+        width: 100%;
+    }
+
+    #contact-me {
+        padding-right: 10%;
     }
 
   }
