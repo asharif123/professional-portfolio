@@ -14,14 +14,12 @@
 header {
     background: linear-gradient(135deg, rgb(116, 117, 10), rgb(114, 12, 117));
     font-family: var(--font-primary);
-    width: 100vw;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
     padding: 1%;
 }
 
@@ -46,6 +44,8 @@ nav ul li a {
     color: var(--color-primary);
     font-weight: 900;
 }
+
+/* added hover effect */
 
 nav ul li a:hover, #contact-me li:hover, .portfolio-card-description a:hover {
     box-shadow: rgb(185, 7, 37) inset 30px 60px
@@ -97,7 +97,7 @@ figure img{
 }
 
 figure img:hover{
-    box-shadow: inset 0px 0px
+    box-shadow: inset 30px 60px
 
 18px #CCF381,
 
@@ -138,7 +138,7 @@ figure img:hover{
     font-size: 50%;
     text-decoration: none;
     position: absolute;
-    top: 71%;
+    top: 80%;
     left: 0%;
     width: 77%;
     padding: 2%;
@@ -175,6 +175,17 @@ figure img:hover{
 
 /* *************************** responsive ************************************** */
 
+  /* adjust responsiveness to adapt font sizes for both profile header and description */
+  @media only screen and (max-width: 770px) {
+    main p {
+        font-size: 60%;
+    }
+
+    main h3 {
+      font-size: 45%;
+  }
+}
+
 /* adjust responsiveness for navbar */
 @media only screen and (max-width: 630px) {
     nav ul li {
@@ -183,16 +194,6 @@ figure img:hover{
 
   }
 
-  /* adjust responsiveness to adapt font sizes for both profile header and description */
-  @media only screen and (max-width: 770px) {
-      main p {
-          font-size: 60%;
-      }
-
-      main h3 {
-        font-size: 45%;
-    }
-  }
 
   @media only screen and (max-width: 500px) {
     #portfolio img {
