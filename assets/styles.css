@@ -139,7 +139,7 @@ figure img:hover{
     left: 0%;
     width: 77%;
     padding: 2%;
-    margin: 2% 12% 0 12%;
+    margin: 2% 0% 0 12%;
     background-color: rgb(15, 108, 121);
 }
 
@@ -191,7 +191,14 @@ figure img:hover{
     }
   }
 
- /* header nav bar responsiveness */
+  @media only screen and (max-width: 500px) {
+    #portfolio img {
+        /* keeps aspect ratio but resized to fit with given dimension */
+        object-fit: contain;
+    }
+}
+
+ /* responsiveness for nav bars, aside portion of main webpage, and footer */
   @media only screen and (max-width: 430px) {
 
     nav ul {
@@ -217,9 +224,3 @@ figure img:hover{
 
   }
   
-  @media only screen and (max-width: 500px) {
-      #portfolio img {
-          /* keeps aspect ratio but resized to fit with given dimension */
-          object-fit: contain;
-      }
-  }
