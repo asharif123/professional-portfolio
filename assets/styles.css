@@ -47,6 +47,10 @@ nav ul li a {
     font-weight: 900;
 }
 
+nav ul li a:hover, #contact-me li:hover, .portfolio-card-description a:hover {
+    box-shadow: rgb(185, 7, 37) inset 30px 60px
+}
+
 main {
     display: flex;
     background-color: var(--color-main);
@@ -73,7 +77,6 @@ main p {
 
 #about-me {
     flex: 1 1 0;
-    height: 100vh;
     margin: 5% 0% 0% 5%;
     padding: 5%;
 }
@@ -170,7 +173,7 @@ figure img:hover{
     text-decoration: underline;
 }
 
-/* ***** responsive ******* */
+/* *************************** responsive ************************************** */
 
 /* adjust responsiveness for navbar */
 @media only screen and (max-width: 630px) {
