@@ -125,6 +125,7 @@ figure img:hover{
     width: 95%;
     height: 85%;
     margin: 1%;
+    padding-bottom: 39%;
     display: flex;
     flex-wrap: wrap;
 }
