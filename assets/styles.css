@@ -68,14 +68,14 @@ main h3 {
     font-family: 'Rubik', sans-serif;
     color: #CCF381;
     text-align: center;
-    margin: 0 auto;
 }
 
 main p {
     margin-top: 5%;
-    font-size: 120%;
+    font-size: 130%;
     font-family: 'Quicksand', sans-serif;
     color: #dae2ca;
+    font-weight: bold;
 
 }
 
@@ -166,6 +166,7 @@ figure img:hover{
     background: linear-gradient(15deg, rgb(53, 196, 89), rgb(25, 156, 58), rgb(13, 88, 11));
     width: 100vw;
     height: 20vh;
+    font-weight: bold;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -177,10 +178,12 @@ figure img:hover{
 
 #contact-me ul li {
     list-style-type: none;
+    
 }
 
 #contact-me ul li a {
     color: var(--color-primary);
+    margin-left: 2%;
 
 }
 
@@ -194,10 +197,11 @@ figure img:hover{
   @media only screen and (max-width: 770px) {
     main p {
         font-size: 60%;
+        
     }
 
     main h3 {
-      font-size: 45%;
+      font-size: 95%;
   }
 }
 
