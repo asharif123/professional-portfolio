@@ -143,6 +143,7 @@ figure img:hover{
 
 .portfolio-card-description img {
     height: 10em;
+    object-fit: cover;
     width: 73%;
     margin-top: 5%;
 }
