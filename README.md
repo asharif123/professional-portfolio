@@ -14,8 +14,7 @@ I have learned to utilizing various HTML and CSS features such as flexbox to com
 
 These 2 screenshots represent the about me section. Clicking on "About" shows a summary of my works and clicking on "Contact" takes user to the footer containing my contact information.
 
-md ![alt text](asset![about-me](https://user-images.githubusercontent.com/49471791/135699303-318b6fea-bff6-4292-892f-1ac80a480d14.JPG)
-s/about-me)
+(asset![about-me](https://user-images.githubusercontent.com/49471791/135699303-318b6fea-bff6-4292-892f-1ac80a480d14.JPG)
 
-md ![alt text](assets/about![about-me-continued](https://user-images.githubusercontent.com/49471791/135699304-6c26bdae-a55d-4873-afd8-2ed01eb7345d.JPG)
--me-continued)
+(assets/about![about-me-continued](https://user-images.githubusercontent.com/49471791/135699304-6c26bdae-a55d-4873-afd8-2ed01eb7345d.JPG)
+
