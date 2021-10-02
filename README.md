@@ -18,3 +18,12 @@ These 2 screenshots represent the about me section. Clicking on "About" shows a 
 
 ![about-me-continued](https://user-images.githubusercontent.com/49471791/135699304-6c26bdae-a55d-4873-afd8-2ed01eb7345d.JPG)
 
+The next 2 screenshots represent the "Works" Section containing my completed works.
+
+When user clicks on a project, it will take the user to the link containing completed project (Example: clicking on "Code Refactor" will take user to the Code Refactor website)
+
+Clicking on "Contact" will take the user to the "Contact" section.
+
+![work-section](https://user-images.githubusercontent.com/49471791/135699412-aa452655-5cdd-441c-a292-5c24772826b8.JPG)
+
+![work-section-2](https://user-images.githubusercontent.com/49471791/135699429-43b1523c-f0dd-4e1e-857b-d1c90f346f84.JPG)
