@@ -148,6 +148,7 @@ figure img:hover{
     margin-top: 5%;
 }
 
+/* style the description for each project */
 .portfolio-card-description a {
     color: #baff31;
     font-size: 50%;
@@ -162,10 +163,10 @@ figure img:hover{
 }
 
 /* ************ styling footer section of both index.html and work.html webpages  ************/
-/* note: #contact-me = footer */
+/* #contact-me = footer */
 #contact-me {
     background: linear-gradient(15deg, rgb(53, 196, 89), rgb(25, 156, 58), rgb(13, 88, 11));
-    width: 100vw;
+    min-width: 100vw;
     height: 20vh;
     font-weight: bold;
     display: flex;
