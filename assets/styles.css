@@ -130,6 +130,14 @@ figure img:hover{
     flex-wrap: wrap;
 }
 
+#portfolio img {
+    /* done so that image does not stretch over smaller screen sizes */
+    max-width: 500px;
+    max-height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
 /* contains width of each of completed works  */
 /* NOTE: this will be updated with more of my own works as we do more projects */
 
@@ -221,7 +229,7 @@ figure img:hover{
   @media only screen and (max-width: 500px) {
     #portfolio img {
         /* keeps aspect ratio but resized to fit with given dimension */
-        object-fit: contain;
+        /* object-fit: contain; */
     }
 }
 
