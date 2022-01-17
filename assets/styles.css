@@ -59,8 +59,8 @@ main {
     display: flex;
     background-color: var(--color-main);
     height: 100vh;
-    width: 100vw;
-    line-height: 2;
+    min-width: 100vw;
+    line-height: 1;
 }
 
 main h3 {
@@ -71,7 +71,8 @@ main h3 {
 }
 
 main p {
-    margin-top: 5%;
+    margin: 5%;
+    line-height: 2.5;
     font-size: 130%;
     font-family: 'Quicksand', sans-serif;
     color: #dae2ca;
@@ -119,20 +120,19 @@ figure img:hover{
 #portfolio {
     font-size: 120%;
     font-family: 'Rubik', sans-serif;
-    color: #67862b;
+    color: #392b86;
     text-align: center;
-    background-color:rgb(236, 223, 223);
+    background-color:#2F5576;
     width: 95%;
     height: 85%;
     margin: 1%;
     padding-bottom: 39%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #portfolio img {
     /* done so that image does not stretch over smaller screen sizes */
-    max-width: 500px;
+    max-width: 80px;
+    margin-bottom: 27%;
     max-height: 150px;
     background-position: center;
     background-size: cover;
@@ -142,32 +142,36 @@ figure img:hover{
 /* NOTE: this will be updated with more of my own works as we do more projects */
 
 .portfolio-card {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+.portfolio-card-image {
+    max-width: 100px;
 }
 
 .portfolio-card-description {
+    font-size: 45%;
+    font-weight: 900;
+    margin-bottom: 5%;
     position: relative;
 }
 
-.portfolio-card-description img {
-    height: 10em;
-    object-fit: cover;
-    width: 73%;
-    margin-top: 5%;
-}
 
 /* style the description for each project */
 .portfolio-card-description a {
+    min-width: 500px;
     color: #baff31;
-    font-size: 50%;
+    text-align: center;
+    font-size: 120%;
     text-decoration: none;
-    position: absolute;
-    top: 77%;
-    left: 0%;
-    width: 77%;
-    padding: 2%;
-    margin: 2% 0% 0 12%;
+    border-radius: 5px;
+    padding: 3%;
     background-color: rgb(15, 108, 121);
+
 }
 
 /* ************ styling footer section of both index.html and work.html webpages  ************/
@@ -225,13 +229,6 @@ figure img:hover{
 
 /* adjust responsiveness for works part of the work.html */
 /* maintain their aspect ratio so that images are not distorted for different screen sizes */
-
-  @media only screen and (max-width: 500px) {
-    #portfolio img {
-        /* keeps aspect ratio but resized to fit with given dimension */
-        /* object-fit: contain; */
-    }
-}
 
  /* responsiveness for nav bars, aside portion of main webpage, and footer */
   @media only screen and (max-width: 430px) {
