@@ -24,7 +24,7 @@ The next 2 screenshots represent the "Works" Section containing my completed wor
 
 When user clicks on a project, it will take the user to the link containing completed project (Example: clicking on "Code Refactor" will take user to the Code Refactor website)
 
-Clicking on "Contact" will take the user to the "Contact" section below and clicking on "About" section will return user to the "About Me" webpage.
+Clicking on "Contact" will take the user to the "Contact" section below and clicking on "About" section will return user to the "About Me" webpage
 
 ![work-section](https://user-images.githubusercontent.com/49471791/135699412-aa452655-5cdd-441c-a292-5c24772826b8.JPG)
 
