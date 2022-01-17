@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 
 :root {
-    --font-primary: 'Roboto Slab', serif;
     --color-primary: rgb(236, 223, 223);
     --color-main: #4831D4;
 
@@ -15,7 +15,6 @@
 
 header {
     background: linear-gradient(135deg, rgb(116, 117, 10), rgb(114, 12, 117));
-    font-family: var(--font-primary);
 }
 
 nav {
@@ -57,7 +56,7 @@ nav ul li a:hover, #contact-me li:hover, .portfolio-card-description a:hover {
 
 main {
     display: flex;
-    background-color: var(--color-main);
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #0e99b5 100%);  
     height: 100vh;
     min-width: 100vw;
     line-height: 1;
@@ -91,7 +90,7 @@ main p {
 /* styling the sidebar of index.html webpage containing my profile picture */
 
 #aside {
-    background-color: #CCF381;
+    background-image: linear-gradient(90deg, #020024 0%, #09791c 35%, #08ce08 100%);  
 }
 
 /* styling my profile picture */
@@ -118,15 +117,17 @@ figure img:hover{
 /********** stylling for work.html webpage *****************/
 
 #portfolio {
+    display: flex;
     font-size: 120%;
     font-family: 'Rubik', sans-serif;
     color: #392b86;
     text-align: center;
-    background-color:#2F5576;
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #0e99b5 100%);  
     width: 95%;
     height: 85%;
     margin: 1%;
     padding-bottom: 39%;
+    
 }
 
 #portfolio img {
@@ -147,6 +148,7 @@ figure img:hover{
     flex-direction: column;
     align-items: center;
     padding: 2%;
+    margin-top: 5%;
 }
 
 .portfolio-card-image {
@@ -177,7 +179,7 @@ figure img:hover{
 /* ************ styling footer section of both index.html and work.html webpages  ************/
 /* #contact-me = footer */
 #contact-me {
-    background: linear-gradient(15deg, rgb(53, 196, 89), rgb(25, 156, 58), rgb(13, 88, 11));
+    background-image: linear-gradient(90deg, #020024 0%, #09791c 35%, #08ce08 100%);  
     min-width: 100vw;
     height: 20vh;
     font-weight: bold;
